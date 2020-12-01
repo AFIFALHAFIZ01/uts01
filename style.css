@@ -1,0 +1,148 @@
+
+ 
+/*bagian header*/
+.wrap .header{
+	background: blue;
+	height: 40px;
+	padding: 2px 10px;
+}
+ .wrap .header a{
+	position: absolute;
+     right: 0;
+     margin-right:35px;
+}
+ 
+/*bagian menu*/
+.wrap .menu{
+	background: blue;
+
+}
+.info{
+	height: 450px;
+}
+.wrap .info .diri{
+	margin-right:5px;
+	padding: 0;
+	font-size: 16px;
+	overflow: hidden;
+	float: left;
+	width: 20%;
+	height: 101%;
+	position: absolute;
+     right: 0;
+}
+ 
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: 450px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+	background: #00CED1;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-weight: bold;
+	overflow: hidden;
+	float: left;
+	margin-right: 5px;	
+	width: 10%;
+	height: 150%;
+}
+.wrap .badan .sidebar ul
+{
+list-style-type: none;
+width: 200px;
+margin: 0;
+padding: 0;
+font-size: 16px;
+font-weight: bold;
+
+
+}
+.wrap .badan .sidebar ul li a
+{
+display: block;
+color: white;
+margin: 5px 7px;
+text-decoration: none;
+padding: 5px;
+}
+ 
+/*akhir sidebar*/
+ 
+.wrap .badan .content{
+	background: #FFFAFA;
+	float: left;
+	height: 150%;
+	width: 70%;	
+	border: 1px solid blue;
+}
+ 
+.footer {
+    padding: 2px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 10px;
+	font-size: 8px;
+}
+
+.form {
+    width:500px;
+    margin:50px auto;
+    border: 1px solid black;
+
+}
+.form p {
+  margin-left: 10px;  
+}
+
+.form .table {
+  margin-left: 10px; 
+  margin-right: 10px; 
+
+}
+.form .table tr td {
+  margin-left: 30px; 
+
+
+}
+
+
+.form .search {
+    padding:8px 10px;
+    background:rgba(50, 50, 50, 0.2);
+    border:1px solid 	#008080;
+    margin-left: 10px;
+}
+.form .button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #53bd84;
+    background-color:#53bd84;
+    color:#fafafa;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+.jadwal{
+border: 2px solid;
+width: 50px;
+height: 50px;
+text-align: right;
+
+}
+.text{
+text-align: right;
+font-size: 12px;
+
+}
